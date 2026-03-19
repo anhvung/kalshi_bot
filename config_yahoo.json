@@ -1,0 +1,6 @@
+{
+  "bitcoin_source": "yahoo",
+  "historical_data_file": "data/bitcoin_yahoo.csv",
+  "update_interval": 60,
+  "lookback_period": "365d"
+}

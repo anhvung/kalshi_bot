@@ -1,0 +1,7 @@
+{
+  "bitcoin_source": "coingecko",
+  "coingecko_api_key": "",
+  "historical_data_file": "data/bitcoin_extended.csv",
+  "update_interval": 60,
+  "lookback_period": "365d"
+}

@@ -1,0 +1,15 @@
+2026-03-19 15:46:16,931 - __main__ - INFO - Starting extended data fetch process...
+2026-03-19 15:46:16,932 - __main__ - INFO - Fetching 365 days of Bitcoin data from CoinGecko...
+2026-03-19 15:46:17,319 - __main__ - INFO - Successfully fetched 366 data points
+2026-03-19 15:46:17,321 - __main__ - INFO - Data range: 2025-03-20 00:00:00 to 2026-03-19 19:45:53
+2026-03-19 15:46:17,323 - __main__ - INFO - Fetching 365 days of Bitcoin data from CoinGecko...
+2026-03-19 15:46:17,662 - __main__ - INFO - Successfully fetched 366 data points
+2026-03-19 15:46:17,663 - __main__ - INFO - Data range: 2025-03-20 00:00:00 to 2026-03-19 19:45:53
+2026-03-19 15:46:17,664 - __main__ - INFO - Found 366 overlapping dates, removing duplicates
+2026-03-19 15:46:17,666 - __main__ - INFO - Final dataset: 366 records
+2026-03-19 15:46:17,666 - __main__ - INFO - Date range: 2025-03-20 00:00:00 to 2026-03-19 19:45:53
+2026-03-19 15:46:17,675 - __main__ - INFO - Data saved to data/bitcoin_extended.csv
+2026-03-19 15:46:17,675 - __main__ - INFO - Data fetch completed successfully!
+2026-03-19 15:46:17,675 - __main__ - INFO - Total records: 366
+2026-03-19 15:46:17,676 - __main__ - INFO - Date range: 2025-03-20 00:00:00 to 2026-03-19 19:45:53
+2026-03-19 15:46:17,677 - __main__ - INFO - Updated config saved to config_extended.json

@@ -1,0 +1,38 @@
+{
+    "api": {
+        "base_url": "https://api.kalshi.co/v1",
+        "api_key": "a06ab198-35f8-4ff7-b3ee-f16e0f64af27",
+        "api_secret": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAv4U/AA8t+66WWSYL+qkNd0fk1d5YiJFvDUByyd7xXH3nUbLL\nnl1U/wMZ0VcoP5OI/3aeRuvfaU32G8Cjxam4b4ItQ1HO3LvYiIWnrJMtoIocouQh\nVBm4ucpUmIW6h2C0S94rN/mwoL4Dl5LJx9l1PEYe3imka1nBWG3TU7vWo7ckIqAk\nHIC34DP9L98SMkDEqpjVX+vazXu5WhbAvWQZRvpOiN4B2VnaAZkea7OuleoW9o/i\ncjnlvtVW2rSiEm5T5ychjM8S2n87avXCiI0MN3WHoE/fVC508dDIb9OKU2hoviNb\nbDWpu/DGUKULXITP6ircBQiGxAaEA0FRuCjpaQIDAQABAoIBABRMOSnWsgMpVPZk\nTaM2fP6eED7pZn0s2rXvFWtXNUHd9yDlv+ZMEnjHeZpB8DpSttOKXQp7r60frdxx\nnXnSu8EXrRfkKPYkc3W+oo9r9ss7r/7EilK5OiZ4ruAOVj9ITLt4s6BmVmWm1ccf\n78I+RgpKDTXy+GHHPLJUS3AlqYEmtgJkVsAlcYcHV4UPSUbnrqdAyUEHdrcHipu8\nxkvOUXVpoElgfJubawCOwTrzOBeYT5ijxKBUl+Pjr6kzmir8p/I5FtXDP649sYap\nliEirNK2hx/2x3BL/ii4azygzpifVnX3wz17xcspede8QpHRVAqXc4qzsMdfbyVU\n0tg6IwECgYEA7SAZP5AhwtaOR70YJWEcWaHpdqGnHwa3qiHI7mJJ7lsUBiqwLx/0\nDIABINP4VaMz2savl9pVAGLoYI//Ew8qtTbbZdWZ3/B9suTU7fvAz2jIcRgwRJGW\nssiu6HdUTk7CTNr/UNiemxW+6wBHMyh+GoS2raZ+utGLs63QJYk3kOkCgYEAzsPb\naPU43kLTnydIUV1+2EMiJIsjw9uLNiiK7fMbFE904nLh8bexK+OM4tFVAyIdFkDy\nKp2/DdQrRGCvTDl1sVMJc/Ek34/sOFZk6bdY53D2mvy0tqFn0XeInZSFRU8Jv7u7\nerbcn7rxzuKjqLXEUNWxbsMc1rKpwCcmlfhzRIECgYEA3AljJHaMvY33LV6s31LD\nyfDTAYBz4fiLydXb7ElMrV/arvZB0xjlkAvgACRyVpVA8wxXuKOjKN6fH6u/WGJE\nkS+8Wzzgssso+S4a4FMy0cQ766Y0dAxdOL28gH7qvlebOVImhVDdrK97H/p8F17F\n1bm9AlpzUsxLxInPkmVIKLECgYEAtEBATb7B5dliPXP0cqJMS2IzKKJ3+m2xbfRo\nMUpnCAzAvA0k9iGKfdVw4+dT8lhR/S1/MDG29epKEeEr0QqilITsT7wgxhjk+LQw\nYyNoiNOM2M6HCFOrewt2+NEaYbKmsBSMO02hBkrmNNKVlCVp0IKKnSHRSUYWACLh\nW4ptioECgYEA7A9XN8+9aoZdoXxpJmPS+AF0QdYFohDLDYdleYVsrUOhwO/Ks/0f\nZwtkOGMX/+5ya63DaVgLCQIGaNw+MbfABgTWd09qkVi79owPPZq0Gr7yTdD3IEx0\nsUmyztHJjBK0I/Re+4uD8yG0ADe6dqK+LlTnT3g2au2uL455QPnf1ng=\n-----END RSA PRIVATE KEY-----",
+        "timeout": 30,
+        "rate_limit": 10
+    },
+    "data": {
+        "bitcoin_source": "coingecko",
+        "coingecko_api_key": "CG-TZfB1M8LnGvyd3JhWMJrPump",
+        "historical_data_file": "data/bitcoin_yahoo.csv",
+        "update_interval": 60,
+        "lookback_period": "365d"
+    },
+    "strategy": {
+        "name": "volatility_breakout",
+        "parameters": {
+            "bb_period": 10,
+            "bb_std_dev": 2.0,
+            "atr_period": 7,
+            "min_volatility": 0.01,
+            "max_spread": 0.05
+        }
+    },
+    "risk": {
+        "max_position_size": 0.02,
+        "max_daily_loss": 0.05,
+        "stop_loss_pct": 0.03,
+        "max_drawdown": 0.10,
+        "position_limit": 1000
+    },
+    "trading_interval": 60,
+    "logging": {
+        "level": "INFO",
+        "file": "kalshi_bot.log"
+    }
+}

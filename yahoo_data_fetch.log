@@ -1,0 +1,13 @@
+2026-03-19 15:47:41,784 - __main__ - INFO - Starting Yahoo Finance data fetch process...
+2026-03-19 15:47:41,784 - __main__ - INFO - Fetching 2y of 1d data for BTC-USD from Yahoo Finance...
+2026-03-19 15:47:42,382 - __main__ - INFO - Successfully fetched 731 data points from Yahoo Finance
+2026-03-19 15:47:42,384 - __main__ - INFO - Data range: 2024-03-19 00:00:00 to 2026-03-19 00:00:00
+2026-03-19 15:47:42,384 - __main__ - INFO - First price: $61,912.77
+2026-03-19 15:47:42,385 - __main__ - INFO - Last price: $70,465.11
+2026-03-19 15:47:42,391 - __main__ - INFO - Data saved to data/bitcoin_yahoo.csv
+2026-03-19 15:47:42,393 - __main__ - INFO - Updated config saved to config_yahoo.json
+2026-03-19 15:47:42,393 - __main__ - INFO - Data fetch completed successfully!
+2026-03-19 15:47:42,394 - __main__ - INFO - Average daily return: 0.0496%
+2026-03-19 15:47:42,394 - __main__ - INFO - Volatility: 2.5312%
+2026-03-19 15:47:42,394 - __main__ - INFO - Max price: $124,752.53
+2026-03-19 15:47:42,395 - __main__ - INFO - Min price: $53,948.75

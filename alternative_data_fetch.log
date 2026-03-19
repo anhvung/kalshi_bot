@@ -1,0 +1,10 @@
+2026-03-19 15:46:56,204 - __main__ - INFO - Starting alternative data source fetch process...
+2026-03-19 15:46:56,205 - __main__ - INFO - Fetching 1000 1d candles from Binance for BTCUSDT...
+2026-03-19 15:46:59,572 - __main__ - ERROR - Error fetching Binance data: 451 Client Error:  for url: https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=1000
+2026-03-19 15:46:59,574 - __main__ - INFO - Fetching data from CryptoCompare...
+2026-03-19 15:47:00,603 - __main__ - ERROR - Error fetching CryptoCompare data: 'time'
+2026-03-19 15:47:00,605 - __main__ - ERROR - Failed to fetch data from any alternative source
+2026-03-19 15:47:00,605 - __main__ - INFO - Consider:
+2026-03-19 15:47:00,606 - __main__ - INFO - 1. Installing yfinance library for Yahoo Finance data
+2026-03-19 15:47:00,606 - __main__ - INFO - 2. Getting a CoinGecko API key for extended history
+2026-03-19 15:47:00,606 - __main__ - INFO - 3. Using paid data sources for more comprehensive data

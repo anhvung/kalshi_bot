@@ -1,0 +1,276 @@
+2026-03-19 15:44:56,517 - __main__ - INFO - Starting simple parameter optimization
+2026-03-19 15:44:56,517 - __main__ - INFO - Testing parameter set 1/9: {'bb_period': 3, 'bb_std_dev': 1.0, 'atr_period': 3, 'min_volatility': 0.001}
+2026-03-19 15:44:56,522 - data.data_feed - INFO - Loaded historical data with 366 records
+2026-03-19 15:44:56,524 - data.data_feed - INFO - Data range: 2025-03-20 00:00:00 to 2026-03-19 19:34:22
+2026-03-19 15:44:56,524 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=0.05, stop_loss_pct=0.03, max_drawdown=0.1, position_limit=1000)
+2026-03-19 15:44:56,524 - strategies.bitcoin_strategy - INFO - Initialized volatility_breakout strategy
+2026-03-19 15:44:56,524 - backtesting.backtester - INFO - Starting backtest from 2025-07-01 to 2026-03-19
+2026-03-19 15:44:56,526 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=1.0, stop_loss_pct=0.03, max_drawdown=1.0, position_limit=1000)
+2026-03-19 15:44:56,527 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:56,527 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:56,560 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:56,575 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:56,581 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:56,646 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:56,676 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:56,737 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:56,757 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:56,794 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:56,800 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,000 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,056 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,059 - backtesting.backtester - WARNING - No trades executed during backtest period
+2026-03-19 15:44:57,059 - __main__ - INFO - Params {'bb_period': 3, 'bb_std_dev': 1.0, 'atr_period': 3, 'min_volatility': 0.001}: 0 trades, Return: 0.00%
+2026-03-19 15:44:57,077 - __main__ - INFO - Testing parameter set 2/9: {'bb_period': 3, 'bb_std_dev': 1.5, 'atr_period': 3, 'min_volatility': 0.001}
+2026-03-19 15:44:57,080 - data.data_feed - INFO - Loaded historical data with 366 records
+2026-03-19 15:44:57,081 - data.data_feed - INFO - Data range: 2025-03-20 00:00:00 to 2026-03-19 19:34:22
+2026-03-19 15:44:57,082 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=0.05, stop_loss_pct=0.03, max_drawdown=0.1, position_limit=1000)
+2026-03-19 15:44:57,082 - strategies.bitcoin_strategy - INFO - Initialized volatility_breakout strategy
+2026-03-19 15:44:57,082 - backtesting.backtester - INFO - Starting backtest from 2025-07-01 to 2026-03-19
+2026-03-19 15:44:57,084 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=1.0, stop_loss_pct=0.03, max_drawdown=1.0, position_limit=1000)
+2026-03-19 15:44:57,085 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:57,086 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:57,118 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,132 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,139 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,195 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,209 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,239 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,292 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,309 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,339 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,345 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,389 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,543 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,565 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,584 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,586 - backtesting.backtester - WARNING - No trades executed during backtest period
+2026-03-19 15:44:57,586 - __main__ - INFO - Params {'bb_period': 3, 'bb_std_dev': 1.5, 'atr_period': 3, 'min_volatility': 0.001}: 0 trades, Return: 0.00%
+2026-03-19 15:44:57,587 - __main__ - INFO - Testing parameter set 3/9: {'bb_period': 5, 'bb_std_dev': 1.5, 'atr_period': 5, 'min_volatility': 0.005}
+2026-03-19 15:44:57,589 - data.data_feed - INFO - Loaded historical data with 366 records
+2026-03-19 15:44:57,589 - data.data_feed - INFO - Data range: 2025-03-20 00:00:00 to 2026-03-19 19:34:22
+2026-03-19 15:44:57,590 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=0.05, stop_loss_pct=0.03, max_drawdown=0.1, position_limit=1000)
+2026-03-19 15:44:57,590 - strategies.bitcoin_strategy - INFO - Initialized volatility_breakout strategy
+2026-03-19 15:44:57,590 - backtesting.backtester - INFO - Starting backtest from 2025-07-01 to 2026-03-19
+2026-03-19 15:44:57,591 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=1.0, stop_loss_pct=0.03, max_drawdown=1.0, position_limit=1000)
+2026-03-19 15:44:57,591 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:57,592 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:57,592 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:57,593 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:57,597 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,629 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,695 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,710 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,754 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,767 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,780 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,789 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,800 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,829 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,912 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,932 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:57,987 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,018 - backtesting.backtester - WARNING - No trades executed during backtest period
+2026-03-19 15:44:58,018 - __main__ - INFO - Params {'bb_period': 5, 'bb_std_dev': 1.5, 'atr_period': 5, 'min_volatility': 0.005}: 0 trades, Return: 0.00%
+2026-03-19 15:44:58,019 - __main__ - INFO - Testing parameter set 4/9: {'bb_period': 5, 'bb_std_dev': 2.0, 'atr_period': 5, 'min_volatility': 0.005}
+2026-03-19 15:44:58,021 - data.data_feed - INFO - Loaded historical data with 366 records
+2026-03-19 15:44:58,021 - data.data_feed - INFO - Data range: 2025-03-20 00:00:00 to 2026-03-19 19:34:22
+2026-03-19 15:44:58,021 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=0.05, stop_loss_pct=0.03, max_drawdown=0.1, position_limit=1000)
+2026-03-19 15:44:58,021 - strategies.bitcoin_strategy - INFO - Initialized volatility_breakout strategy
+2026-03-19 15:44:58,021 - backtesting.backtester - INFO - Starting backtest from 2025-07-01 to 2026-03-19
+2026-03-19 15:44:58,022 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=1.0, stop_loss_pct=0.03, max_drawdown=1.0, position_limit=1000)
+2026-03-19 15:44:58,023 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,023 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,024 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,024 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,028 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,045 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,057 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,122 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,130 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,147 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,204 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,221 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,234 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,242 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,255 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,258 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,287 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,373 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,398 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,462 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,479 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,495 - backtesting.backtester - WARNING - No trades executed during backtest period
+2026-03-19 15:44:58,495 - __main__ - INFO - Params {'bb_period': 5, 'bb_std_dev': 2.0, 'atr_period': 5, 'min_volatility': 0.005}: 0 trades, Return: 0.00%
+2026-03-19 15:44:58,496 - __main__ - INFO - Testing parameter set 5/9: {'bb_period': 10, 'bb_std_dev': 2.0, 'atr_period': 7, 'min_volatility': 0.01}
+2026-03-19 15:44:58,498 - data.data_feed - INFO - Loaded historical data with 366 records
+2026-03-19 15:44:58,498 - data.data_feed - INFO - Data range: 2025-03-20 00:00:00 to 2026-03-19 19:34:22
+2026-03-19 15:44:58,498 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=0.05, stop_loss_pct=0.03, max_drawdown=0.1, position_limit=1000)
+2026-03-19 15:44:58,498 - strategies.bitcoin_strategy - INFO - Initialized volatility_breakout strategy
+2026-03-19 15:44:58,498 - backtesting.backtester - INFO - Starting backtest from 2025-07-01 to 2026-03-19
+2026-03-19 15:44:58,499 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=1.0, stop_loss_pct=0.03, max_drawdown=1.0, position_limit=1000)
+2026-03-19 15:44:58,500 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,500 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,501 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,501 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,502 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,502 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,502 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,503 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,503 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,519 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,527 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,529 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,548 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,561 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,573 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,597 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,636 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,655 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,672 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,704 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,749 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,751 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,770 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,775 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,777 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,780 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,782 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,784 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,803 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,805 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,819 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,833 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,835 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,860 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,863 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,865 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,872 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,874 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,885 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,895 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,900 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,915 - backtesting.backtester - WARNING - No trades executed during backtest period
+2026-03-19 15:44:58,915 - __main__ - INFO - Params {'bb_period': 10, 'bb_std_dev': 2.0, 'atr_period': 7, 'min_volatility': 0.01}: 0 trades, Return: 0.00%
+2026-03-19 15:44:58,916 - __main__ - INFO - Testing parameter set 6/9: {'bb_period': 7, 'bb_std_dev': 1.5, 'atr_period': 7, 'min_volatility': 0.001}
+2026-03-19 15:44:58,918 - data.data_feed - INFO - Loaded historical data with 366 records
+2026-03-19 15:44:58,918 - data.data_feed - INFO - Data range: 2025-03-20 00:00:00 to 2026-03-19 19:34:22
+2026-03-19 15:44:58,918 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=0.05, stop_loss_pct=0.03, max_drawdown=0.1, position_limit=1000)
+2026-03-19 15:44:58,918 - strategies.bitcoin_strategy - INFO - Initialized volatility_breakout strategy
+2026-03-19 15:44:58,918 - backtesting.backtester - INFO - Starting backtest from 2025-07-01 to 2026-03-19
+2026-03-19 15:44:58,919 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=1.0, stop_loss_pct=0.03, max_drawdown=1.0, position_limit=1000)
+2026-03-19 15:44:58,920 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,920 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,921 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,921 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,922 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,922 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:58,926 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,952 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,969 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:58,998 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,021 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,090 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,109 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,145 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,147 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,165 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,192 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,194 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,199 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,217 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,225 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,270 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,277 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,289 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,292 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,330 - backtesting.backtester - WARNING - No trades executed during backtest period
+2026-03-19 15:44:59,330 - __main__ - INFO - Params {'bb_period': 7, 'bb_std_dev': 1.5, 'atr_period': 7, 'min_volatility': 0.001}: 0 trades, Return: 0.00%
+2026-03-19 15:44:59,331 - __main__ - INFO - Testing parameter set 7/9: {'bb_period': 7, 'bb_std_dev': 1.5, 'atr_period': 7, 'min_volatility': 0.003}
+2026-03-19 15:44:59,333 - data.data_feed - INFO - Loaded historical data with 366 records
+2026-03-19 15:44:59,333 - data.data_feed - INFO - Data range: 2025-03-20 00:00:00 to 2026-03-19 19:34:22
+2026-03-19 15:44:59,333 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=0.05, stop_loss_pct=0.03, max_drawdown=0.1, position_limit=1000)
+2026-03-19 15:44:59,334 - strategies.bitcoin_strategy - INFO - Initialized volatility_breakout strategy
+2026-03-19 15:44:59,334 - backtesting.backtester - INFO - Starting backtest from 2025-07-01 to 2026-03-19
+2026-03-19 15:44:59,335 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=1.0, stop_loss_pct=0.03, max_drawdown=1.0, position_limit=1000)
+2026-03-19 15:44:59,335 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:59,336 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:59,336 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:59,337 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:59,337 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:59,338 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:59,342 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,368 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,385 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,415 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,436 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,510 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,532 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,574 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,576 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,599 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,631 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,634 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,640 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,661 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,673 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,727 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,736 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,748 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,752 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,801 - backtesting.backtester - WARNING - No trades executed during backtest period
+2026-03-19 15:44:59,801 - __main__ - INFO - Params {'bb_period': 7, 'bb_std_dev': 1.5, 'atr_period': 7, 'min_volatility': 0.003}: 0 trades, Return: 0.00%
+2026-03-19 15:44:59,802 - __main__ - INFO - Testing parameter set 8/9: {'bb_period': 5, 'bb_std_dev': 1.0, 'atr_period': 5, 'min_volatility': 0.001}
+2026-03-19 15:44:59,805 - data.data_feed - INFO - Loaded historical data with 366 records
+2026-03-19 15:44:59,805 - data.data_feed - INFO - Data range: 2025-03-20 00:00:00 to 2026-03-19 19:34:22
+2026-03-19 15:44:59,806 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=0.05, stop_loss_pct=0.03, max_drawdown=0.1, position_limit=1000)
+2026-03-19 15:44:59,806 - strategies.bitcoin_strategy - INFO - Initialized volatility_breakout strategy
+2026-03-19 15:44:59,806 - backtesting.backtester - INFO - Starting backtest from 2025-07-01 to 2026-03-19
+2026-03-19 15:44:59,807 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=1.0, stop_loss_pct=0.03, max_drawdown=1.0, position_limit=1000)
+2026-03-19 15:44:59,808 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:59,809 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:59,809 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:59,810 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:44:59,848 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,919 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,933 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:44:59,977 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,001 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,009 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,020 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,047 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,123 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,144 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,197 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,227 - backtesting.backtester - WARNING - No trades executed during backtest period
+2026-03-19 15:45:00,227 - __main__ - INFO - Params {'bb_period': 5, 'bb_std_dev': 1.0, 'atr_period': 5, 'min_volatility': 0.001}: 0 trades, Return: 0.00%
+2026-03-19 15:45:00,228 - __main__ - INFO - Testing parameter set 9/9: {'bb_period': 5, 'bb_std_dev': 1.0, 'atr_period': 5, 'min_volatility': 0.003}
+2026-03-19 15:45:00,230 - data.data_feed - INFO - Loaded historical data with 366 records
+2026-03-19 15:45:00,230 - data.data_feed - INFO - Data range: 2025-03-20 00:00:00 to 2026-03-19 19:34:22
+2026-03-19 15:45:00,230 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=0.05, stop_loss_pct=0.03, max_drawdown=0.1, position_limit=1000)
+2026-03-19 15:45:00,230 - strategies.bitcoin_strategy - INFO - Initialized volatility_breakout strategy
+2026-03-19 15:45:00,230 - backtesting.backtester - INFO - Starting backtest from 2025-07-01 to 2026-03-19
+2026-03-19 15:45:00,231 - risk.risk_manager - INFO - Initialized risk manager with limits: RiskLimits(max_position_size=0.02, max_daily_loss=1.0, stop_loss_pct=0.03, max_drawdown=1.0, position_limit=1000)
+2026-03-19 15:45:00,232 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:45:00,232 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:45:00,233 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:45:00,233 - strategies.bitcoin_strategy - WARNING - Insufficient historical data for calculations
+2026-03-19 15:45:00,266 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,332 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,346 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,391 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,414 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,421 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,431 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,458 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,541 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,581 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,675 - strategies.bitcoin_strategy - ERROR - Error calculating signal: single positional indexer is out-of-bounds
+2026-03-19 15:45:00,725 - backtesting.backtester - WARNING - No trades executed during backtest period
+2026-03-19 15:45:00,726 - __main__ - INFO - Params {'bb_period': 5, 'bb_std_dev': 1.0, 'atr_period': 5, 'min_volatility': 0.003}: 0 trades, Return: 0.00%
+2026-03-19 15:45:00,727 - __main__ - WARNING - No parameter combinations generated trades
+2026-03-19 15:45:00,727 - __main__ - INFO - Try these manual adjustments:
+2026-03-19 15:45:00,727 - __main__ - INFO - 1. Reduce bb_period to 3-5
+2026-03-19 15:45:00,727 - __main__ - INFO - 2. Reduce bb_std_dev to 1.0-1.5
+2026-03-19 15:45:00,727 - __main__ - INFO - 3. Reduce min_volatility to 0.001-0.005
+2026-03-19 15:45:00,727 - __main__ - INFO - 4. Use shorter date ranges for testing
